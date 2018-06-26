@@ -1,0 +1,29 @@
+type FooType extends BaseType, BaseTypeB {
+  constructor() {
+    this.method(5px, 5px);
+  }
+
+  foo() {
+    padding-right: 12px;
+  }
+}
+
+type BaseType {
+  constructor() {
+    padding-left: 12px; 
+  }
+
+  method(var, var2) {
+    padding-top: var;
+    padding-bottom: var2;
+  }
+}
+
+.selector { FooType(); }
+
+.selector-two extends BaseType() {
+  margin: 0;
+}
+
+.type() {
+}

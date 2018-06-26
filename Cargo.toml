@@ -1,0 +1,7 @@
+[package]
+name = "css-types"
+version = "0.1.0"
+authors = ["Joel Gallant <joel@joelgallant.me>"]
+
+[dependencies]
+nom = "^4.0"
